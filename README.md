@@ -1,6 +1,6 @@
 # Web-scraping
 
-##Setup to scrape using Scrapy
+**##Setup to scrape using Scrapy**
 
 Install _requirements.txt_ in a virtual environment
 
