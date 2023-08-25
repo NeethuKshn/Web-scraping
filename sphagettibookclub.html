@@ -1,0 +1,1368 @@
+		<!doctype html>
+		<html>
+		   <head>
+        <meta charset="utf-8" />
+        <meta property="description" content="The largest site of children's book reviews written and illustrated by kids for kids. Read our reviews or submit your own!" />
+<meta property="og:description" content="The largest site of children's book reviews written and illustrated by kids for kids. Read our reviews or submit your own!" />
+<meta property="og:title" content="Spaghetti Book Club" />
+<meta property="og:image" content="https://www.spaghettibookclub.org/user-image/25127.jpg" />
+        <title>Spaghetti Book Club</title>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <meta name="viewport" content="initial-scale=1.0" />
+        <link href="assets/css/layout.css" rel="stylesheet" media="all" />
+		<link href="assets/css/SlideShow.css" rel="stylesheet" media="all" />
+		<link href="assets/css/Extra.css" rel="stylesheet" media="all" />
+
+        <script src="assets/js/all.min.js"></script>
+		<script src="assets/js/SlideShow.js"></script>
+        <script language="javascript">
+        
+        function targetPopup(form) {
+            window.open('', 'formpopup', 'width=400,height=400,resizeable,scrollbars');
+             form.target = 'formpopup';
+        }
+        
+        function check_recaptcha() {
+
+            const recaptcha_box_checked = (grecaptcha.getResponse()) ? true : false;
+        
+            if (recaptcha_box_checked) { 
+                return true;
+            }
+            else {
+                alert("You must check the 'I am not a robot' box before you can start a game!");
+                return false;
+            }
+        }
+
+        </script>			
+		
+
+	<meta content="book reviews, book reviews by kids for kids, children, children's
+book reviews, by kids, by children, for kids, for children, great books for kids, children's literature, publishing, publishing student book reviews, Spaghetti Book Club" name="keywords" />
+
+
+
+
+    </head>
+	<body class="page_home" >
+	<section class="block find_bar">
+
+    <div class="container">
+
+        <form class="search" method="post" action="title.php">
+    <input type="text"  name="searchByTitle" class="type_text" placeholder="What are you interested in reading today?" /><!--
+/--><button><span class="irp">Search</span></button>
+</form><!--
+
+    /--><div>
+            <h3>Browse reviews by:</h3><!--
+        /--><ul>
+                <li><a href="title.php">Title</a></li><!--
+            /--><li><a href="author.php">Author</a></li><!--
+            /--><li><a href="grades.php">Grade</a></li><!--
+            /--><li><a href="school-list.php">School/Group</a></li>
+            </ul>
+        </div>
+
+    </div><!-- end container -->
+
+</section><!-- end find_bar -->
+        <input type="checkbox" id="menu_toggle" />
+
+<section class="block header">
+
+    <header class="container">
+
+        <h1><a href="index.php">
+            <span class="irp">Spaghetti Book Club - Book Reviews by Kids for Kids</span>
+        </a></h1>
+
+        <label id="menu" for="menu_toggle"><span>Menu</span></label>
+
+        
+        <nav>
+            <ul class="nav">
+                <li class="active"><a href="index.php">Home	</a></li><!--
+            /--><li ><a href="about.php">About</a></li><!--
+            /--><li class="has_sub">
+                    
+                    <div>
+
+                        <input type="checkbox" id="sub_toggle_0">
+                        <label for="sub_toggle_0"><span>Memberships</span></label>
+        
+                        <ul>
+                            <!-- <li><a href="membership-index.php">Overview</a></li> -->
+                            <li><a href="membership/school.php">Schools</a></li>
+                            <li><a href="membership/afterschool.php">Afterschool Programs</a></li>
+                            <li><a href="membership/library.php">Public Libraries</a></li>
+                            <li><a href="membership/homeschool.php">Homeschool Groups</a></li>
+                            <li><a href="membership/family.php">Families - Coming Soon!</a></li>
+                        </ul>
+        
+                    </div>
+
+                </li><!--
+            /--><li ><a href="faq.php">Faq</a></li><!--
+            /--><li ><a href="testimonials.php">Testimonials</a></li><!--
+            /--><li ><a href="contact.php">Contact</a></li>
+            </ul>
+            <ul class="members">
+                <!--<li><a href="join.php">Join</a></li>--><!--
+            /--><li><a href="login.php">Login</a></li>
+            </ul>
+        </nav>
+
+    </header><!-- end container -->
+
+</section><!-- end header -->	<main>
+	    <section class="block intro">
+
+        <div class="container">
+
+            <div>
+
+                <div class="drawings drawings_set_1">
+
+    <span>
+        <img src='assets/img/1.jpg' alt=''/>
+    </span><!--
+/--><span>
+        <img src='assets/img/2.jpg' alt=''/>
+    </span><!--
+/--><span>
+        <img src='assets/img/3.jpg' alt=''/>
+    </span>
+
+</div><!--
+
+            /--><div class="items intro_fader">
+
+                    <hgroup class="item item1 space">
+
+    <h3>A fun & engaging literacy program, committed to </h3>
+	<h2>developing confident readers and writers </h2>
+
+</hgroup><!--
+                /--><hgroup class="item item2 space">
+
+	<h3>Learning reading and writing skills through</h3>
+	<h2>writing and publishing book reviews</h2>
+
+</hgroup><!--
+                /--><hgroup class="item item3 space">
+
+	<h3>Giving kids a place for</h3>
+	<h2>sharing insights and opinions with readers around the world</h2>
+
+</hgroup><!--
+                /--><hgroup class="item item4 space">
+
+	<h3>The Spaghetti Book Club is</h3>
+	<h2>the largest site of book reviews written and illustrated by kids for kids</h2>
+
+
+</hgroup>
+                </div><!--
+
+            /--><div class="drawings drawings_set_2">
+
+    <span>
+        <img src='assets/img/4.jpg' alt=''/>
+    </span><!--
+/--><span>
+        <img src='assets/img/5.jpg' alt=''/>
+    </span><!--
+/--><span>
+        <img src='assets/img/6.jpg' alt=''/>
+    </span>
+
+</div>
+            </div>
+
+            <a href="about.php" class="bg_link reverse"><span>Read about us</span></a>
+
+        </div><!-- end container -->
+
+    </section><!-- end intro -->
+
+    <section class="block features">
+
+        <div class="container">
+
+            <div>
+
+                <div class="rotd">
+
+                    <div>
+                        <h3 class="title">Review of the week</h3>
+                    </div>
+
+                    <article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=12131">Judy Moody Declares Independence</a></h2>
+            <h3><span>Written by <strong>Megan McDonald</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=12131" class="img"><img src="/user-image/25127.jpg" alt="Judy Moody Declares Independence" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Kavyaa P. (age 8)</strong></h3>
+
+            <p>Judy was in Boston, Massachusetts. When she went on the ship where the Boston tea party was she met a girl from England named Tori. When Judy went home she made her own Declaration of Independence. Will Judy's parents let her have independence? Find out by ... <a class="bg_link " href="review.php?review_id=12131"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!-- 800x400 -->
+
+                </div><!-- end rotd
+
+            /--><div class="featured">
+
+                    <h3 class="title">Featured <span>Reviews</span></h3> 
+					<a class="bg_link" href="title.php"><span>All Reviews</span></a>
+
+                    <div class="reviews_slider">
+	<!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=14956">After the Fall - How Humpty Dumpty Got Back Up Again</a></h2>
+            <h3><span>Written by <strong>Dan Santat</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=14956" class="img"><img src="/user-image/30543.jpg" alt="After the Fall - How Humpty Dumpty Got Back Up Again" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Sebastian E. (age 8), Jack P. (age 7) & Luke P. (age 7)</strong></h3>
+
+            <p>This book is about Humpty Dumpty who is afraid of heights because he fell off from a big, gigantic wall. We’re sure you’ve heard about it. Humpty Dumpty loved watching birds but because he was afraid of heights he could not go up on the wall and watch ... <a class="bg_link " href="review.php?review_id=14956"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=1037">Avocado Baby</a></h2>
+            <h3><span>Written by <strong>John Burningham</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=1037" class="img"><img src="/user-image/2236.gif" alt="Avocado Baby" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Aaron S. (age 6) & William L. (age 7)</strong></h3>
+
+            <p>There was a family that wasn't very strong and the mom was having a baby.  They were expecting it to be stronger, but the baby wasn't very strong.  The children decided to give him avocado pear.  Every day the baby would eat avocado pear.  He got stronger ... <a class="bg_link " href="review.php?review_id=1037"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=8954">A Picture Book of Martin Luther King, Jr.</a></h2>
+            <h3><span>Written by <strong>David A. Adler</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=8954" class="img"><img src="/user-image/19117.gif" alt="A Picture Book of Martin Luther King, Jr." class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Logan W. (age 9)</strong></h3>
+
+            <p>Do you want to learn about Martin Luther King Jr.?  If you do, then look for  A Picture Book of Martin Luther King, Jr.  You will also learn a lot of history from this book.
+
+My favorite part in the book is the March on Washington when Martin said these ... <a class="bg_link " href="review.php?review_id=8954"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=5407">Abel's Island</a></h2>
+            <h3><span>Written by <strong>William Steig</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=5407" class="img"><img src="/user-image/11110.jpg" alt="Abel's Island" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Michelle P. (age 10)</strong></h3>
+
+            <p>Abel is a mouse who has a wife named Amanda. She is a mouse, too. Abel and Amanda went on a picnic. Abel went to play a joke on Amanda when a hurricane started to form. They left their picnic where it was and started to walk home. Abel and Amanda didn?t have ... <a class="bg_link " href="review.php?review_id=5407"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=5014">Esperanza Rising</a></h2>
+            <h3><span>Written by <strong>Pam Ryan</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=5014" class="img"><img src="/user-image/11057.gif" alt="Esperanza Rising" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Breanna D. (age 10)</strong></h3>
+
+            <p>From rags to riches!  Esperanza is a loving and rich 13-year-old girl.  She lives with her Mama, Papa, Abuelita and many servants on a ranch in Mexico.  Esperanza's life seems to be perfect.  However an unbelievable event tears her family apart.  In the beginning ... <a class="bg_link " href="review.php?review_id=5014"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=363">We're Going on a Bear Hunt</a></h2>
+            <h3><span>Written by <strong>Michael Rosen</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=363" class="img"><img src="/user-image/620.gif" alt="We're Going on a Bear Hunt" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Rachel 1 (E. K.) (age 6) & Ray A. (age 7)</strong></h3>
+
+            <p>Four kids went on a bear hunt with a man. They said they're not scared.  We think it is funny because they go through all sorts of things. They fall in all kinds of things like a river and a mud puddle and a forest and other things.  Every time the four kids ... <a class="bg_link " href="review.php?review_id=363"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=2304">The Black Pearl</a></h2>
+            <h3><span>Written by <strong>Scott O'Dell</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=2304" class="img"><img src="/user-image/4733.jpg" alt="The Black Pearl" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Marissa B. (age 10)</strong></h3>
+
+            <p>The book, The Black Pearl, is about a man named Senor Salazar and his son Ramon Salazar.  Senor Salazar owns a pearling business where they go scuba diving for pearls.  
+When Ramon goes to the lagoon on business, he ends up going after the pearls--against ... <a class="bg_link " href="review.php?review_id=2304"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=13698">Hiccups for Elephant</a></h2>
+            <h3><span>Written by <strong>James Preller</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=13698" class="img"><img src="/user-image/28014.jpeg" alt="Hiccups for Elephant" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Justin T. (age 7)</strong></h3>
+
+            <p>“Hiccup!”  “Hiccup!”  This book is about an elephant that gets the hiccups and wakes up the other animals that are his friends and they try to cure the hiccups, but it doesn’t do it.  They tell him to drink a lot of water really fast.  They tell ... <a class="bg_link " href="review.php?review_id=13698"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=5191">Staying Nine</a></h2>
+            <h3><span>Written by <strong>Pam Conrad</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=5191" class="img"><img src="/user-image/10872.jpg" alt="Staying Nine" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Zishan Q. (age 11)</strong></h3>
+
+            <p>Staying Nine is about a girl named Heather.  She wants to be nine years old forever and doesn't want to change.  She didn't want to have a birthday party because she thought she could stay nine if she didn't have a party.  
+
+     One day Heather looked at ... <a class="bg_link " href="review.php?review_id=5191"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=13810">Valentine's Day Disaster</a></h2>
+            <h3><span>Written by <strong>Geronino Stilton</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=13810" class="img"><img src="/user-image/28627.jpg" alt="Valentine's Day Disaster" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Abby H. (age 7)</strong></h3>
+
+            <p>Geronimo Stilton is the main character in the story. One day Geronimo wakes up. He was so busy the night before setting up decorations that he forgot to set his alarm. So, on Valentine’s Day he he sleeps in and he’s late for work. That might not seem so ... <a class="bg_link " href="review.php?review_id=13810"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=1466">Risky Friends</a></h2>
+            <h3><span>Written by <strong>Julie  Anne Peters</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=1466" class="img"><img src="/user-image/3187.gif" alt="Risky Friends" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Haley C. (age 10)</strong></h3>
+
+            <p> Kacie Shannon thinks she's going to have a bad day and wonders if things could get any worse.  Just then she spills grape juice on her new white silk blouse.  Now she's sure it's going to be a horrible day!  Problems start
+when Skye Collinsworth, her least ... <a class="bg_link " href="review.php?review_id=1466"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=3567">So You Want to Be President?</a></h2>
+            <h3><span>Written by <strong>Judith S. George</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=3567" class="img"><img src="/user-image/7756.gif" alt="So You Want to Be President?" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Brandon A. (age 8) & Steven H. (age 9)</strong></h3>
+
+            <p>Being President is hard, but picture yourself as president and having your own swimming pool, movie theater, and bowling alley in your home! This is a book about past presidents and what their life was like while living in the White House. The book is hilarious ... <a class="bg_link " href="review.php?review_id=3567"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=7201">George Washington's Mother</a></h2>
+            <h3><span>Written by <strong>Jean Fritz</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=7201" class="img"><img src="/user-image/15266.gif" alt="George Washington's Mother" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Lindsey E. (age 8)</strong></h3>
+
+            <p>Hey!  This book is awesome.  It is about George Washington's mom, and a little bit about George.  Mary had to raise five kids on her own after her husband died.  Mary doesn't want George to get hurt in the war.  She begs him not to go, but he's twenty-one ... <a class="bg_link " href="review.php?review_id=7201"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=1598">Amelia's Notebook</a></h2>
+            <h3><span>Written by <strong>Marissa Moss</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=1598" class="img"><img src="/user-image/3300.gif" alt="Amelia's Notebook" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Stacey F (age 10)</strong></h3>
+
+            <p>This book is about a girl named Amelia.   Her mom brought her a notebook.  They were going to a new house to move but Amelia did not think it was a good idea because she liked her old house.  When they go to the new house they stop in all kinds of restaurants ... <a class="bg_link " href="review.php?review_id=1598"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=10348">The Snowy Day</a></h2>
+            <h3><span>Written by <strong>Ezra Jack Keats</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=10348" class="img"><img src="/user-image/21465.jpg" alt="The Snowy Day" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Kaytlin M. (age 6)</strong></h3>
+
+            <p>The Snowy Day is a picture book about a little boy who wakes up one day and looks out his window and sees lots and lots of snow. He is so excited and after he eats his breakfast, he gets into his snowsuit and goes outside to play in the snow. He doesn't have ... <a class="bg_link " href="review.php?review_id=10348"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=826">The Big Pets</a></h2>
+            <h3><span>Written by <strong>Lane Smith</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=826" class="img"><img src="/user-image/2127.gif" alt="The Big Pets" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Marley S. (age 8), Samantha B. (age 7) & Evan D. (age 8)</strong></h3>
+
+            <p>The Big Pets is about a girl and her humongous cat. Together they went to the milky pools and after when the girl comes out, the cat would lick her feet. They joined other kids and go to other places like Scratching Post Forest and String Vine city and a milky ... <a class="bg_link " href="review.php?review_id=826"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=11926">The Catcher in the Rye</a></h2>
+            <h3><span>Written by <strong>J.D. Salinger</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=11926" class="img"><img src="/user-image/24783.jpg" alt="The Catcher in the Rye" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Sam L. (age 14)</strong></h3>
+
+            <p>A young Holden Caulfield, fresh from being kicked out of prep school,  thinks that he is an adult. After wondering around New York City for days, however, he begins to think otherwise. He feel lonely without his friends from school. When he sneaks into his ... <a class="bg_link " href="review.php?review_id=11926"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=8669">I Am Lost</a></h2>
+            <h3><span>Written by <strong>Hans Wilhelm</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=8669" class="img"><img src="/user-image/18063.jpg" alt="I Am Lost" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Donovan J. (age 6)</strong></h3>
+
+            <p>If you wander off from your parent or if you go somewhere that you have not told your parents about, you might get lost.  This book helps you with a way to find your way back home.  I think the author was trying to help us with being lost.
+
+I liked this ... <a class="bg_link " href="review.php?review_id=8669"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=11195">All About Sam</a></h2>
+            <h3><span>Written by <strong>Lois Lowry</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=11195" class="img"><img src="/user-image/23377.jpg" alt="All About Sam" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Amelia G. (age 9)</strong></h3>
+
+            <p>Do you have a younger brother or sister?  If you do, you should consider reading this book.  In this book there is a silly little boy named Sam that really doesn’t get the world and does silly things.  Sam’s sister, mom and dad don’t really get him either. ... <a class="bg_link " href="review.php?review_id=11195"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=15610">Carl and the Meaning of Life</a></h2>
+            <h3><span>Written by <strong>Deborah Freedman</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=15610" class="img"><img src="/user-image/31734.jpg" alt="Carl and the Meaning of Life" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Ryan A. (age 9), Jack P. (age 8), Sebastian E. (age 9) & Hudson B. (age 9)</strong></h3>
+
+            <p>Have you ever wondered why you are here? We all have meaning in our life. This book is about an earthworm named Carl that wants to know the meaning of his life.  He wants to know why he does what he does and why he’s here. He goes and asks all the animals ... <a class="bg_link " href="review.php?review_id=15610"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=13721">Wilma Unlimited</a></h2>
+            <h3><span>Written by <strong>Kathleen Krull</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=13721" class="img"><img src="/user-image/28126.jpg" alt="Wilma Unlimited" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Brewer A. (age 9)</strong></h3>
+
+            <p>Have you ever given up on yourself? If you have then Wilma Rudolph is not like you. Wilma was a small young girl when at the age of 4 she was diagnosed with polio and scarlet fever. Her leg was paralyzed. That did not stop Wilma. One Sunday, the Rudolphs were ... <a class="bg_link " href="review.php?review_id=13721"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=12827">The Help</a></h2>
+            <h3><span>Written by <strong>Kathryn Stockett</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=12827" class="img"><img src="/user-image/26590.jpg" alt="The Help" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Lauren P. (age 14)</strong></h3>
+
+            <p>The Help by Kathryn Stockett is about the black maids and white employers in Jackson Mississippi. This novel covers the racist and segregated ways of Jackson during the 1960’s . Ms Skeeter Phelan (a 23 year old white female) decides, in order to pursue her ... <a class="bg_link " href="review.php?review_id=12827"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=5985">Don't Let the Pigeon Drive the Bus!</a></h2>
+            <h3><span>Written by <strong>Mo Willems</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=5985" class="img"><img src="/user-image/12506.gif" alt="Don't Let the Pigeon Drive the Bus!" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Zachary P. (age 5)</strong></h3>
+
+            <p>This is a very funny story about a pigeon who really wants to drive the bus.  All he could think about was driving the bus.  He says &quot;please&quot; and cannot stop thinking about getting to drive the bus.  He keeps making funny faces as he tries to get ... <a class="bg_link " href="review.php?review_id=5985"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=2664">Abuela's Weave</a></h2>
+            <h3><span>Written by <strong>Omar S. Castaneda</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=2664" class="img"><img src="/user-image/5665.jpg" alt="Abuela's Weave" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Ivan A. (age 10)</strong></h3>
+
+            <p>Once upon a time a girl named Esperansa was helping her grandma make clothes for la fiesta del pueblo (the town's party).  Esperansa and her grandma   worked day and night.  The day came and Esperansa had to go to the town.  She got on the bus, but when she ... <a class="bg_link " href="review.php?review_id=2664"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=11924">Tending To Grace</a></h2>
+            <h3><span>Written by <strong>Kimberly Fusco</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=11924" class="img"><img src="/user-image/24781.jpg" alt="Tending To Grace" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Mecca J. (age 14)</strong></h3>
+
+            <p>Cornelia Thornhill's world seems to be slowly closing in on her. Problems from her past permanently damage her ability to show her inner-self and to express any feelings toward the world. In her mind she's a &quot;bird tethered to the ground.&quot; With her ... <a class="bg_link " href="review.php?review_id=11924"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=8993">"Here I Am!" said Smedley</a></h2>
+            <h3><span>Written by <strong>Simon Puttock</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=8993" class="img"><img src="/user-image/19109.gif" alt=""Here I Am!" said Smedley" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Jackson G. (age 8)</strong></h3>
+
+            <p>Smedley is a chameleon who is very shy and is almost always blending in.  Then there is a new girl in class named Sally Skinky.  She tells Smedley that he could enter the Big City Art Exhibition and win the big prize!  You'll have to read the book to see what ... <a class="bg_link " href="review.php?review_id=8993"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=15664">The Littles Get Trapped</a></h2>
+            <h3><span>Written by <strong>John Peterson</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=15664" class="img"><img src="/user-image/31856.jpg" alt="The Littles Get Trapped" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Yandeiris D. (age 9)</strong></h3>
+
+            <p>Imagine being only six inches tall! In this book The Littles are a family that is very small and  they live in a house with humans called the Biggs. The Biggs don't know that the Littles live in the house. Tom and Lucy feel sorry for the Biggs cat because ... <a class="bg_link " href="review.php?review_id=15664"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=4096">Smoke Screen</a></h2>
+            <h3><span>Written by <strong>Amy Goldman Koss</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=4096" class="img"><img src="/user-image/8816.ill" alt="Smoke Screen" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Lyndsay L. (age 11)</strong></h3>
+
+            <p>Have you ever told a big lie that keeps getting bigger and bigger? The girl in Smoke Screen did. It all started with a piece of cotton. Instead of telling the truth about her watery eye to the boy she has a crush on, Mitzi tells a lie about her mom that grows ... <a class="bg_link " href="review.php?review_id=4096"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=12961">Here Comes the Strikeout</a></h2>
+            <h3><span>Written by <strong>Leonard Kessler</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=12961" class="img"><img src="/user-image/27077.jpg" alt="Here Comes the Strikeout" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Casey B. (age 7)</strong></h3>
+
+            <p>This story is about working hard every day.  Bobby is a baseball player.  He strikes out 21 times.  Willy gives Bobby a bat to help him.  Bobby begins to cry at home, so Willy helps him with his hitting.  Bobby works hard and gets the game winning hit.
+
+My ... <a class="bg_link " href="review.php?review_id=12961"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=8967">Bugs</a></h2>
+            <h3><span>Written by <strong>David Green Burg</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=8967" class="img"><img src="/user-image/18654.JPG" alt="Bugs" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Armani B. (age 9)</strong></h3>
+
+            <p>Bugs is a funny book by David Greenburg. It is funny because it has people riding on spiders and jumping on spider webs as a jump house. The book Bugs shows things that you will never see a bug do in the real world. This book includes different types of bug. ... <a class="bg_link " href="review.php?review_id=8967"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=6270">Military Planes: Flying Machines</a></h2>
+            <h3><span>Written by <strong>Kelly Baysura</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=6270" class="img"><img src="/user-image/12998.gif" alt="Military Planes: Flying Machines" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Eiji R. (age 8)</strong></h3>
+
+            <p>The book Military Planes is about when the first war planes were made.  In World War 1, the observer who sat in the back of the plane had to watch for enemy planes.  Some planes had only one seat and others had two.  There were many different kinds of war ... <a class="bg_link " href="review.php?review_id=6270"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=1875">Angel in Charge</a></h2>
+            <h3><span>Written by <strong>Julie Delton</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=1875" class="img"><img src="/user-image/3935.gif" alt="Angel in Charge" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Gigi Y. (age 10)</strong></h3>
+
+            <p>Do you believe a ten year old girl can be in charge of her brother and the house independently while her mother is away? An interesting fiction book Angel in Charge will tell you more about lovable siblings.
+
+
+Angel, a ten-year old girl, lived with her ... <a class="bg_link " href="review.php?review_id=1875"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=2093">Anastasia at Your Service</a></h2>
+            <h3><span>Written by <strong>Lois Lowry</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=2093" class="img"><img src="/user-image/32033.png" alt="Anastasia at Your Service" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Shae D. (age 10)</strong></h3>
+
+            <p>Anastasia at Your Service!  The book that I read was Anastasia at Your Service.  It was about a girl named Anastasia, of course.  Anastasia wanted something very badly, but her parents said that from now on when she wanted something, she had to earn it.  Anastasia ... <a class="bg_link " href="review.php?review_id=2093"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=3994">The Girl Who Hated Books</a></h2>
+            <h3><span>Written by <strong>Manjusha Pawagi</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=3994" class="img"><img src="/user-image/8783.gif" alt="The Girl Who Hated Books" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Jamie L. (age 8) & Duval M. (age 8)</strong></h3>
+
+            <p>This book is about a girl who hated books.  Her name is Meena.  There are books all over her house!  Her parents read and read and READ!  But Meena always said, &quot;...I HATE BOOKS!&quot;  One day Meena called for her cat, Max.  He didn't come, so she went ... <a class="bg_link " href="review.php?review_id=3994"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=8296">Down On The Funny Farm</a></h2>
+            <h3><span>Written by <strong>P.E. King</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=8296" class="img"><img src="/user-image/17077.JPG" alt="Down On The Funny Farm" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Matthew T. (age 6) & Courtney L. (age 7)</strong></h3>
+
+            <p>We picked this book because it looked funny.
+
+The story is about a farmer.  The farmer said hello to the old man and then the old man sold a farm to him.  The farmer went to the farm.  The animals on the farm are acting like other animals.  The chicken acts ... <a class="bg_link " href="review.php?review_id=8296"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=14950">Henry and Mudge Take the Big Test</a></h2>
+            <h3><span>Written by <strong>Cynthia Rylant</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=14950" class="img"><img src="/user-image/30558.jpeg" alt="Henry and Mudge Take the Big Test" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Raphael D. (age 6)</strong></h3>
+
+            <p>This book is about Henry and Mudge. Mudge is Henry’s 180-pound dog. Mudge wasn’t such a good listener, so Henry decided to send Mudge to day school. Henry got the idea from another man walking down the street with his dog. Henry tried to train Mudge, but ... <a class="bg_link " href="review.php?review_id=14950"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=7070">Little Bulldozer</a></h2>
+            <h3><span>Written by <strong>Beverly Randell</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=7070" class="img"><img src="/user-image/14790.gif" alt="Little Bulldozer" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>V.S. (age 7)</strong></h3>
+
+            <p>The Little Bulldozer went to look at the fire engine. The fire engine told him to go away. Little Bulldozer went away. He went to look at a big truck. He told the big truck that he likes helping. The big truck told him to go away. Everyone thought he was too ... <a class="bg_link " href="review.php?review_id=7070"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=4059">My Louisiana Sky</a></h2>
+            <h3><span>Written by <strong>Kimberly Holt</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=4059" class="img"><img src="/user-image/8682.G" alt="My Louisiana Sky" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Emma G. (age 10)</strong></h3>
+
+            <p>&quot;My Louisiana Sky&quot; is about a girl named Tiger. But before I say anything you must know that Tiger's parents are mentally challenged and they are always embarrassing her. She is named Tiger because when her mom was little she had a cat named Tiger. ... <a class="bg_link " href="review.php?review_id=4059"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=15646">Bat in the Waiting Room</a></h2>
+            <h3><span>Written by <strong>Elana Arnold</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=15646" class="img"><img src="/user-image/31838.jpg" alt="Bat in the Waiting Room" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Gabrielle L. (age 10)</strong></h3>
+
+            <p>Do you like fiction books? Then you would like a wonderful book called Bat and the Waiting Game it is about an autistic kid named Bixby Alexander Tam, also known as "Bat". He has a baby skunk has a pet named Thor. 
+Bat has an older sister "Janie" but when ... <a class="bg_link " href="review.php?review_id=15646"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=6860">Chasing Redbird</a></h2>
+            <h3><span>Written by <strong>Sharon Creech</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=6860" class="img"><img src="/user-image/15008.gif" alt="Chasing Redbird" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Miranda P. (age 10)</strong></h3>
+
+            <p>Zinnia (Zinny) Taylor is an ordinary 13 year old girl who is just getting over her Aunt Jessie's death. When she uncovers an old and lost trail, she knows that looking for this trail is her new summer project. Working on the lost trail gave Zinny a place all ... <a class="bg_link " href="review.php?review_id=6860"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=6803">How to Make Four Million Dollars by Next Thursday</a></h2>
+            <h3><span>Written by <strong>Stephen Manes</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=6803" class="img"><img src="/user-image/14030.jpg" alt="How to Make Four Million Dollars by Next Thursday" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Emily M. (age 9)</strong></h3>
+
+            <p>&quot;Can a book really teach you how to make four million dollars by next Thursday?&quot; Jason Nozzle thought so one day when he was walking home from school. He reached into his pocket and found that he had lost his allowance money! He searched EVERYWHERE ... <a class="bg_link " href="review.php?review_id=6803"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  --><article class="review">
+
+    <div class="space">
+
+        <hgroup>
+            <h2><a href="review.php?review_id=5117">Beezus and Ramona</a></h2>
+            <h3><span>Written by <strong>Beverly Cleary</strong></span></h3>
+        </hgroup>
+
+        <a href="review.php?review_id=5117" class="img"><img src="/user-image/11146.jpg" alt="Beezus and Ramona" class="" /></a>
+
+        <div class=" details space">
+
+            <h3>Reviewed by <strong>Olivia N. (age 9)</strong></h3>
+
+            <p>This book is so good I would give it four thumbs up!  It
+is a funny book because Ramona is an impossible little 
+sister and she ruins everything.  The story is about two
+sisters fighting all through the book.  Ramona is always
+getting on Beezus's nerves. ... <a class="bg_link " href="review.php?review_id=5117"><span>more</span></a></p>
+
+        </div>
+
+    </div>
+
+</article><!--  -->
+
+                    </div><!-- end slider -->
+
+                </div><!-- end featured -->
+
+            </div>
+
+        </div><!-- end container -->
+
+    </section><!-- end features -->
+
+    <section class="block by_grade">
+
+        <div class="container">
+
+            <h3 class="title">Reviews by Grade</h3> 
+			<a class="bg_link" href="grades.php"><span>All Grades</span></a>
+
+            <ul>
+                <li>
+    <a href="grades.php?grade=k-1">
+        <h2 class="bg_link reverse" style="z-index:3"><span>K-1 (ages 5-7)</span></h2>
+                <ul id="gradeImageSlidesK1" class="SlideShow">
+        <li class="slide showing"><img src="/user-image/3030.gif" alt="Brown Bear, Brown Bear What Do you See?" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/3040.gif" alt="One Fish, Two Fish, Red Fish, Blue Fish" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/1856.gif" alt="1" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/19566.gif" alt="blake_hannah.gif" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/1322.gif" alt="1" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/1320.gif" alt="1" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/29867.jpg" alt="hawkins_0165.jpg" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/9528.gif" alt="alejandro_Ch_ARM.gif" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/11963.jpg" alt="areyouabee.jpg" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/29639.jpg" alt="hawkins_ill_0072.jpg" style="width: 280px; height: 195;" /></li>        </ul>
+    </a>
+</li><!--
+            /--><li>
+    <a href="grades.php?grade=2-3">
+        <h2 class="bg_link reverse" style="z-index:3"><span>2-3 (ages 7-9)</span></h2>
+        <ul id="gradeImageSlides23" class="SlideShow">
+        <li class="slide showing"><img src="/user-image/432.gif" alt="1" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/451.gif" alt="1" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/392.gif" alt="1" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/302.gif" alt="1" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/497.gif" alt="" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/524.gif" alt="1" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/525.gif" alt="1" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/526.gif" alt="1" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/30543.jpg" alt="afterthefall_0542.jpg" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/31153.jpg" alt="emmanuel_1002.jpg" style="width: 280px; height: 195;" /></li>        </ul>  
+	</a>
+</li><!--
+            /--><li>
+    <a href="grades.php?grade=4-5">
+        <h2 class="bg_link reverse" style="z-index:3"><span>4-5 (ages 9-11)</span></h2>
+        <ul id="gradeImageSlides45" class="SlideShow">
+        <li class="slide showing"><img src="/user-image/789.gif" alt="1" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/22782.jpg" alt="john.jpg" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/2071.GIF" alt="1" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/2073.GIF" alt="1" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/543.gif" alt="1" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/974.gif" alt="1" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/973.gif" alt="1" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/3928.gif" alt="The Adventures of Tom Sawyer" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/15897.jpg" alt="voyageofpatienceCD.jpg" style="width: 280px; height: 195;" /></li>		</ul>
+	</a>
+</li><!--
+            /--><li>
+    <a href="grades.php?grade=6-9">
+        <h2 class="bg_link reverse" style="z-index:3"><span>6-9 (ages 11-14)</span></h2>
+        <ul id="gradeImageSlides69" class="SlideShow">
+        <li class="slide showing"><img src="/user-image/14055.gif" alt="callofthewildDANIEL.gif" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/5618.gif" alt="For review: 2628" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/7215.jpg" alt="Weekwasmurder.jpg" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/2752.jpg" alt="1" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/23142.jpg" alt="Matteo.jpg" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/23120.jpg" alt="Kimi.jpg" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/23139.jpg" alt="Ilham.jpg" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/23119.jpg" alt="Ho Jeong.jpg" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/23124.jpg" alt="Ming.jpg" style="width: 280px; height: 195;" /></li><li class="slide"><img src="/user-image/14053.gif" alt="sixgradesecretskathryn.gif" style="width: 280px; height: 195;" /></li>        </ul>
+    </a>
+</li>            </ul>
+
+        </div><!-- end container -->
+
+    </section><!-- end by_grade -->
+
+   <section class="block featured_members">
+
+        <div class="container">
+
+            <h3 class="title">Featured Members</h3>
+
+            <hgroup>
+                <h3>
+				<a href="class.php?classId=1536" class="bg_link reverse">
+				<span>Ms. Ragosta's 3rd Grade Class</span></a></h3>
+                <h4 class="bg_link grey"><span>Pelham, NY, US</span></h4>
+            </hgroup>
+
+            <a class="bg_link" href="school-list.php"><span>All Schools/Groups</span></a>
+
+            <div class="members_slider">
+				
+                <img src="/user-image/31219.jpg" alt="SP_ragosta_1041.jpg" class="" /><!--
+                    --><img src="/user-image/31226.jpg" alt="SP_ragosta_1049.jpg" class="" /><!--
+                    --><img src="/user-image/31222.jpg" alt="SP_ragosta_1045.jpg" class="" /><!--
+                    --><img src="/user-image/31224.jpg" alt="SP_ragosta_1047.jpg" class="" /><!--
+                    --><img src="/user-image/31229.jpg" alt="SP_ragosta_1052.jpg" class="" /><!--
+                    --><img src="/user-image/31221.jpg" alt="SP_ragosta_1043.jpg" class="" /><!--
+                    --><img src="/user-image/31216.jpg" alt="SP_ragosta_1038.jpg" class="" /><!--
+                    --><img src="/user-image/31218.jpg" alt="SP_ragosta_1040.jpg" class="" /><!--
+                    --><img src="/user-image/31231.jpg" alt="img20190408_11114705.jpg" class="" /><!--
+                    --><img src="/user-image/31228.jpg" alt="SP_ragosta_1051.jpg" class="" /><!--
+                    --><img src="/user-image/31227.jpg" alt="SP_ragosta_1050.jpg" class="" /><!--
+                    --><img src="/user-image/31225.jpg" alt="SP_ragosta_1048.jpg" class="" /><!--
+                    --><img src="/user-image/31217.jpg" alt="SP_ragosta_1039.jpg" class="" /><!--
+                    --><img src="/user-image/31223.jpg" alt="SP_ragosta_1046.jpg" class="" /><!--
+                    --><img src="/user-image/31230.jpg" alt="SP_ragosta_1053.jpg" class="" /><!--
+                    --><img src="/user-image/31220.jpg" alt="SP_ragosta_1042.jpg" class="" /><!--
+                    -->            </div>
+
+			
+
+        </div><!-- end container -->
+
+    </section><!-- end featured_members -->
+    <section class="block featured_testimonials">
+
+        <div class="container">
+
+            <h3 class="title"><a href="testimonial.php">Testimonials</a></h3>
+
+            <div class="quotes_fader">
+            
+                <div>
+        
+<blockquote>
+	<p>“I used this program with some of my students who are struggling readers. They were thrilled to see their review and felt ...” <a class="bg_link" href="testimonials.php"><span>more</span></a></p>
+</blockquote>
+
+<footer>
+
+	<cite class="author">Mrs. Johnson</cite>
+	<cite class="club">EMES Reading Club,</cite>
+	<cite class="school">East Montpelier Elementary School,</cite>
+	<cite class="location">Vermont</cite>
+
+</footer>
+
+</div><!--
+            /--><div>
+<blockquote>
+	<p>“I get the feeling that Spaghetti Book Club is run by caring people who love reading, and who want children to love reading too!” <a class="bg_link" href="testimonials.php"><span>more</span></a></p>
+</blockquote>
+
+<footer>
+
+	<cite class="author">Ms. Valerie White</cite>
+	<cite class="club">Kindergarten Teacher,</cite>
+	<cite class="school">Benjamin Franklin Elementary School,</cite>
+	<cite class="location">Barcelona, Spain</cite>
+
+</footer>
+
+</div><!--
+            /--><div>
+<blockquote>
+	<p>“My first graders became enthusiastic writers and artists once they saw reviews online...” <a class="bg_link" href="testimonials.php"><span>more</span></a></p>
+</blockquote>
+
+<footer>
+
+	<cite class="author">Rodney Fulton,</cite>
+	<cite class="club">1st Grade Teacher,</cite>
+	<cite class="school">Northside Elementary,</cite>
+	<cite class="location">Arkansas</cite>
+
+</footer>
+
+</div>
+            </div><!-- end slider -->
+
+        </div><!-- end container -->
+    
+    </section><!-- end testimonials -->
+
+	
+			</main>
+	
+	<footer class="block footer">
+        
+    <div class="container">
+
+        <nav>
+            <ul>
+                <li><a href="book-lists.php">Book Lists</a></li>
+                <li><a href="faq.php">FAQ</a></li>
+                <li><a href="testimonials.php">Testimonials</a></li>
+                <li><a href="publishers.php">Info for Authors &amp; Publishers</a></li>
+                <li><a href="sponsorship.php">Corporate Sponsorship</a></li>
+                <li><a href="legal.php">Privacy Policy / Terms of Use</a></li>
+                <li class="copyright">©1999-2023 Happy Medium Productions, Inc.</li>
+            </ul>
+        </nav><!--
+
+    /--><form id="newsletter-sub" action="https://spaghettibookclub.us20.list-manage.com/subscribe/post?u=c3c04d0a57f5fa55339c8ce7a&amp;id=a3a6442d01" method="post" class="space">
+    
+            <h3 class="title">Subscribe</h3>
+
+            <p>Receive “Review of the Day” roundups, new reviews, membership discounts, and all things literacy …</p>
+
+            <fieldset>
+                <input type="text" name="FNAME" placeholder="First Name" /><!--
+            /--><input type="email" name="EMAIL" placeholder="Email *" required /><!--
+            /--><button><span>Sign-Up</span></button>
+            <!--
+            <div class="g-recaptcha" data-sitekey="6LdnE3wiAAAAAFlVqiWiu020ReZlSxhI2cqbi-He"></div>
+			<input type="hidden" name="FSRC" value="footer">
+			<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c3c04d0a57f5fa55339c8ce7a_a3a6442d01" tabindex="-1" value=""></div>
+			-->
+            </fieldset>
+    
+        </form><!--
+
+    /--><ul class="social">
+            <li class="i"><a href="https://www.instagram.com/spaghettibookclub/" target="_blank"><span class="irp">Instagram</span></a></li>
+            <li class="t"><a href="https://twitter.com/Spaghetti_BClub" target="_blank"><span class="irp">Twitter</span></a></li>
+            <li class="f"><a href="https://www.facebook.com/spaghettibookclub" target="_blank"><span class="irp">Facebook</span></a></li>
+        </ul><!--
+
+    /--><address>
+    
+            <div>
+                606 Post Road East, Suite 715,<br />
+                Westport, CT 06880
+            </div><!--
+
+        /--><h4>Questions? <a href="contact.php">Contact Us</a></h4><!--
+
+        /--><ul>
+                <li>tel. 203.226.1010</li><!--
+            /--><li>fax. 203.226.1005</li><!--
+            /--><li><a href="mailto:info@spaghettibookclub.org">info@spaghettibookclub.org</a></li>
+            </ul>
+
+        </address>
+    
+    </div><!-- end container -->
+ <script>
+   function onSubmit(token) {
+     document.getElementById("newsletter-sub").submit();
+   }
+ </script>
+</footer><!-- end footer -->	</body>
+	       <script language="javascript">
+       var slideshow1 = new SlideShow(document.querySelectorAll('#gradeImageSlidesK1 .slide'));
+       var slideshow2 = new SlideShow(document.querySelectorAll('#gradeImageSlides23 .slide'));
+       var slideshow3 = new SlideShow(document.querySelectorAll('#gradeImageSlides45 .slide'));
+       var slideshow4 = new SlideShow(document.querySelectorAll('#gradeImageSlides69 .slide'));
+       
+       
+       slideshow1.Start(8000,0000);
+       slideshow2.Start(8000,2000);
+       slideshow3.Start(8000,4000);
+       slideshow4.Start(8000,6000);
+       </script>
+	   </html>
