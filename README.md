@@ -11,7 +11,7 @@ pip install -r requirements.txt
 
 Get started with scrapy: https://docs.scrapy.org/en/latest/intro/tutorial.html
 
-## Create a new project and a new spider
+**## Create a new project and a new spider**
 
 Scrapy has scaffolding that helps you get started with everything you need for a scraping project. Create a project and then a _spider_.
 
@@ -19,7 +19,7 @@ Scrapy has scaffolding that helps you get started with everything you need for a
 scrapy startproject bookclub
 scrapy genspider sphagettibookclub sphagettibookclub.org
 ```
-## Use the scrapy shell
+**## Use the scrapy shell**
 
 To help you building the scraping, use the scrapy shell (an interactive scraping shell) to work with the HTML files. The scrapy CLI allows you to use absolute paths. Go to the root of this repo and run the following to open up the local HTML file:
 
@@ -35,7 +35,7 @@ Confirm that the `response.url` points to the local path:
 
 Note that the name of the project and the spider must be different. Otherwise the spider will not get created.
 
-##Copying the webpage locally
+**##Copying the webpage locally**
 
 ```
 wget -o sphagettibookclub.html https://www.spaghettibookclub.org/
